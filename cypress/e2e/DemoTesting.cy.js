@@ -16,6 +16,6 @@ describe("ViewPage", function () {
     cy.wait(5000);
     cy.get(".terms-of-service").click();
     cy.wait(5000);
-    cy.get(".checkout-buttons").click();
+    cy.get("#checkout").click();
   });
 });
